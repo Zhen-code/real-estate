@@ -1,0 +1,10 @@
+<view>
+    <van-action-sheet
+            title="选项"
+            show="{{ show }}"
+            actions="{{actions}}"
+            bind:close="onClose"
+            bind:select="selectData"
+    >
+    </van-action-sheet>
+</view>
